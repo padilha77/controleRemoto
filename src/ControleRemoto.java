@@ -1,4 +1,5 @@
-public class ControleRemoto {
+public class ControleRemoto implements Controlador{
+
     //atributos
     private int volume;
     private boolean ligado;
@@ -36,4 +37,55 @@ public class ControleRemoto {
         this.tocando = tocando;
     }
 
+    //métodos implementados da interface Controlador
+
+    @Override
+    public void ligar() {
+
+    }
+
+    @Override
+    public void desligar() {
+
+    }
+
+    @Override
+    public void abrirMenu() {
+
+    }
+
+    @Override
+    public void fecharMenu() {
+
+    }
+
+    @Override
+    public void ligarMudo() {
+
+    }
+
+    @Override
+    public void desligarMudo() {
+
+    }
+
+    @Override
+    public void aumentarVolume() {
+
+    }
+
+    @Override
+    public void abaixarVolume() {
+
+    }
+
+    @Override
+    public void play() {
+
+    }
+
+    @Override
+    public void pause() {
+
+    }
 }
