@@ -39,7 +39,7 @@ public class ControleRemoto implements Controlador{
 
     //métodos implementados da interface Controlador
 
-    @Override
+    @Override   // O @Override em Java serve para indicar ao compilador que um metodo na classe filha tem a intenção de sobrescrever (substituir) um metodo da classe pai ou de uma interface
     public void ligar() {
 
     }
